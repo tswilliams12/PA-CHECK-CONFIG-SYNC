@@ -34,7 +34,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-f", "--firewall", help="Name or IP address of the firewall")
 parser.add_argument("-u", "--username", help="User login")
 parser.add_argument("-p", "--password", help="Login password")
-parser.add_argument("-N", "--NOVERIFY", help="Do not verify SSL certificate")
+parser.add_argument("-N", "--NOVERIFY", help="Do not verify SSL certificate test")
 args = parser.parse_args()
 
 # Gather the user defined variables, either from the command-line options, 
