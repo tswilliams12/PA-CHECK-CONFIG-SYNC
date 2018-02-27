@@ -12,6 +12,10 @@
 # Note: If the password has a special character in it, it may need to be 
 # delimited with "\" when typing in
 #
+#
+# Changelog
+# 2-27-18 - Updated to be friendly with Nagios
+#
 import string
 import getpass
 import subprocess
